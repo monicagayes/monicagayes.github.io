@@ -1,0 +1,125 @@
+<style>
+body {
+	background: #ffffff url("http://sunnyneo.com/petpage/PP_aboutme_bg.jpg");
+}
+body, div, a {
+	font: 7pt verdana;
+	color: #000000;
+	text-align: center;
+}
+td, tr, table {
+	font: 7pt verdana;
+	color: #000000;
+	padding: 0px;
+}
+h1 {
+	padding-top: 3px;
+	height: 23px;
+	text-transform: uppercase;
+	font-size: 10pt;
+	font-family: georgia;
+	text-align: center;
+	padding-left: 5px;
+	color: #000;
+	background: url("http://sunnyneo.com/petpage/PP_aboutme_h1.jpg");
+	background-repeat: no-repeat;
+}
+#nav {
+	left: 74px;
+	top: 210px;
+	width: 632px;
+	height: 30px;
+	z-index: 3;
+}
+#nav a {
+	text-decoration: none;
+	color: #000;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+#nav a:hover {
+	color: #ffffff;
+}
+a:link, a:active, a:visited {
+	text-decoration: none;
+	color: #636363;
+}
+a:hover {
+	color: #927F44;
+}
+b {
+	font: 7pt verdana;
+	color: #8FB677;
+	border-bottom: 1px dotted #7f7f7f;
+	font-weight: bold;
+}
+#pic {
+	left: 0px;
+	top: 0px;
+	width: 780px;
+	height: 600px;
+	background: url("http://sunnyneo.com/petpage/PP_aboutme_img.jpg");
+	z-index: -1;
+}
+#info {
+	left: 74px;
+	top: 235px;
+	width: 632px;
+	z-index: 2;
+	padding: 0px;
+}
+.footer {
+	width: 632px;
+	padding: 5px 0px;
+	background-color: #C0D6B2;
+	border: 1px solid #759B60;
+	color: #000000;
+	z-index: 4;
+	text-align: center;
+}
+table {
+	background: none;
+}
+table a img, center p {
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+}
+</style>
+
+<div id="pic" style="position: absolute;"></div>
+<div id="nav" style="position: absolute;">
+
+
+<a href="/explore.phtml">EXPLORE</a>
+<a href="/arcade/index.phtml">GAMES</a>
+<a href="/neomessages.phtml">NEOMAIL</a>
+<a href="/objects.phtml">SHOPS</a>
+<a href="/neoboards/index.phtml">BOARDS</a>
+<a href="/nf.phtml">NEWS</a>
+
+
+<a href="/help.phtml">HELP</a>
+</div>
+<div id="info" style="position: absolute;">
+<h1 id="nomar">First Header Title Here</h1>
+This is a pet page layout for an About Me information page. Write all about
+yourself here. You can add more headers and change what they say.
+
+
+<h1>Second Header Title Here</h1>
+This is what bold text looks like: <b>bold</b>, this is a link:
+<a href="http://www.neopets.com/~TheSunnyNeo">link</a>
+
+
+<h1>Third Header Title Here</h1>
+Don't remove the bottom credit please ^_^
+
+
+
+
+
+
+<br><br><br><br><br><br><div class="footer"><a href="http://www.neopets.com/~TheSunnyNeo">I got my Pet Page layout from SunnyNeo,
+get yours today!</a></div>
+</div>
